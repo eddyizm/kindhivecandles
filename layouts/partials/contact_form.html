@@ -1,0 +1,27 @@
+<!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/mnqoaqyo" method="POST">
+  <ul class="flex-outer">
+    <li>
+      <label>
+        Your email:
+        <input type="text" name="_replyto" />
+      </label>
+    </li>
+    <li>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+    </li>
+    <li>
+      <button type="submit">Send</button>
+    </li>
+  </ul>
+</form>
+<br>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/mnqoaqyo"})
+</script>
+
