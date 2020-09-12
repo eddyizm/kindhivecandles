@@ -13,7 +13,7 @@ body {
     
   }
   
-  .container {
+  .container * {
     box-sizing: border-box;
     
   }
@@ -77,12 +77,17 @@ body {
   }
   
   .flex-outer li button {
-    margin-right: auto;
+    margin-left: auto;
     padding: 8px 16px;
     border: none;
-    background: #333;
+    background: #9fd067;
     color: #f2f2f2;
     text-transform: uppercase;
     letter-spacing: .09em;
     border-radius: 2px;
+  }
+
+  .flex-outer li button:hover
+  {
+    background: #86c440;
   }
