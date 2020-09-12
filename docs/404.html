@@ -6,8 +6,8 @@
 
 <link rel="shortcut icon" href="https://eddyizm.github.io/kindhivecandles/images/favicon.png" type="image/png"/>
 
-<meta name="description" content="Nutrition Coach &amp; Chef Consultant" />
-<meta name="keywords" content="some, keywords, for, seo, you, know, google, duckduckgo, and, such" />
+<meta name="description" content="Beeswax and Soy candles made with love and intention by Lula" />
+<meta name="keywords" content="beeswax, candles, beeswax candles, homemade, handcrafted, custom, southern california, intention, kindhive" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
 <meta name="HandheldFriendly" content="True" />
@@ -15,12 +15,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link rel="stylesheet" href='https://eddyizm.github.io/kindhivecandles/css/screen.css'>
+<link rel="stylesheet" href='https://eddyizm.github.io/kindhivecandles/css/custom.css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href='https://eddyizm.github.io/kindhivecandles/font-awesome/css/font-awesome.min.css'>
 
 <meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="Nutrition Coach &amp; Chef Consultant" />
+<meta property="og:description" content="Beeswax and Soy candles made with love and intention by Lula" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://eddyizm.github.io/kindhivecandles/404.html" />
 <meta property="og:image" content="https://eddyizm.github.io/kindhivecandles/images/joshuatree.jpg"/>
@@ -30,10 +31,10 @@
 <meta name="twitter:image" content="https://eddyizm.github.io/kindhivecandles/images/joshuatree.jpg"/>
 
 <meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content="Nutrition Coach &amp; Chef Consultant"/>
+<meta name="twitter:description" content="Beeswax and Soy candles made with love and intention by Lula"/>
 
 <meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="Nutrition Coach &amp; Chef Consultant">
+<meta itemprop="description" content="Beeswax and Soy candles made with love and intention by Lula">
 
 
 
@@ -49,10 +50,19 @@
 
 
 
-<link rel="apple-touch-icon" sizes="180x180" href='https://eddyizm.github.io/kindhivecandles/images/apple-touch-icon.png'>
+<link rel="apple-touch-icon" sizes="180x180" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-180x180.png'>
+<link rel="apple-touch-icon" sizes="57x57" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-57x57.png'>
+<link rel="apple-touch-icon" sizes="60x60" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-60x60.png'>
+<link rel="apple-touch-icon" sizes="72x72" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-72x72.png'>
+<link rel="apple-touch-icon" sizes="76x76" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-76x76.png'>
+<link rel="apple-touch-icon" sizes="114x114" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-114x114.png'>
+<link rel="apple-touch-icon" sizes="120x120" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-120x120.png'>
+<link rel="apple-touch-icon" sizes="144x144" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-144x144.png'>
+<link rel="apple-touch-icon" sizes="152x152" href='https://eddyizm.github.io/kindhivecandles/images/apple-icon-152x152.png'>
+<link rel="icon" type="image/png" sizes="192x192"  href='https://eddyizm.github.io/kindhivecandles/images/android-icon-192x192.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='https://eddyizm.github.io/kindhivecandles/images/favicon-32x32.png'>
-<link rel="icon" type="image/png" sizes="16x16" href='https://eddyizm.github.io/kindhivecandles/images/favicon-16x16.png'>
-<body>
+<link rel="icon" type="image/png" sizes="96x96" href='https://eddyizm.github.io/kindhivecandles/images/favicon-96x96.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='https://eddyizm.github.io/kindhivecandles/images/favicon-16x16.png'><body>
 <main class="content page-template 404" role="main">
     <article class="post page">
         <header class="post-header">
@@ -66,6 +76,75 @@
         </section>
     </article>
 </main>
+<form id="my-form" action="https://formspree.io/mnqoaqyo" method="POST">
+  <ul class="flex-outer">
+    <li>
+      <label>Email:</label>
+      <input type="email" name="email" />
+    </li>
+    <li>
+      <label>Message:</label>
+      <input type="text" name="message" />
+    </li>
+    <li>
+      <button id="my-form-button">Submit</button>
+      <p id="my-form-status"></p>
+    </li>
+  </ul>
+</form>
+
+<br />
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    
+    
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    
+    
+    function success() {
+      form.reset();
+      form.style = "display: none ";
+      button.style = "display: none ";
+      status.innerHTML = "Thank you for your message. We will respond as soon as we can!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+
+
 <footer class="site-footer">
     <div class="inner">
         <section class="copyright">© Kind Hive Candle Co.</section>
@@ -83,5 +162,5 @@
         <script type="text/javascript" src='https://eddyizm.github.io/kindhivecandles/js/icons.js'></script>
         <script type="text/javascript" src='https://eddyizm.github.io/kindhivecandles/js/index.js'></script>
         
-</body>
+     </body>
 </html>
